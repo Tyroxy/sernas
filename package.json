@@ -1,0 +1,23 @@
+{
+  "name": "sernas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+    "scripts": {
+    "dev0": "nodemon ./index.js",
+    "dev1": "nodemon ./001/app.js",
+    "dev-nd1": "nodemon ./001/nd-1.js",
+    "dev-nd2": "nodemon ./001/nd-2.js",
+    "dev2": "nodemon ./002/app.js",
+    "dev-nd3": "nodemon ./002/nd-3.js",
+    "dev3": "nodemon ./003/app.js",
+    "dev": "dead-server --port=3003 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Andrius B. <tyroxy@gmail.com> (https://github.com/tyroxy)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
